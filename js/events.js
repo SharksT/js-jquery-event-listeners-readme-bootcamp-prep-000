@@ -28,7 +28,7 @@ $('imput').on('keydown',function(e) {
     alert("You pressed the G key!");
   }
 });
-
+}
 function submitIt() {
 
 }
