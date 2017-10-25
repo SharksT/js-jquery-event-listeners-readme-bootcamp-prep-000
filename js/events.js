@@ -22,7 +22,7 @@ $('document').on('load',function(){
 
 function pressIt() {
 
-$('imput').on('keydown',function () {
+$('imput').on('keydown',function (e) {
 
 });
 
