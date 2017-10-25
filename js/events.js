@@ -25,7 +25,7 @@ function pressIt() {
 $('imput').on('keydown',function(e) {
   alert("You pressed the G key!");
   console.log("Teste");
-  if((e.which || e.detail ) === 71)
+  if((e.which || e.detail ) == 71)
   {
     alert("You pressed the G key!");
   }
