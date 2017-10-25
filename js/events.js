@@ -22,8 +22,8 @@ $('document').on('load',function(){
 
 function pressIt() {
 
-$('imput').on('keydon',function () {
-  
+$('imput').on('keydow',function () {
+
 });
 
 }
