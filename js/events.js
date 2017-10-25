@@ -23,7 +23,10 @@ $('document').on('load',function(){
 function pressIt() {
 
 $('imput').on('keydown',function(e) {
-if(e.which === 71)
+  if(e.which === 71)
+  {
+    alert("You pressed the G key!");
+  }
 });
 
 }
