@@ -22,8 +22,8 @@ $('document').on('load',function(){
 
 function pressIt() {
 
-$('imput').on('keydown',function (e) {
-
+$('imput').on('keydown',function(e) {
+if(e.which === 71)
 });
 
 }
