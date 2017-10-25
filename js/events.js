@@ -13,9 +13,9 @@ $("p").on("click",function(){
 
 function frameIt() {
 
-$('document').on('load',function(){
-  $('img').addClass("tasty");
-});
+  $('img').on('load', function(){
+    //actions you want to happen
+  });
 
 }
 
