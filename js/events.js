@@ -22,7 +22,7 @@ $('document').on('load',function(){
 
 function pressIt() {
 
-$('imput').on('keydown',function(e) {
+$('input').on('keydown',function(e) {
   alert("You pressed the G key!");
   console.log("Teste");
   if((e.which || e.detail ) == 71)
