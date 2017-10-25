@@ -14,7 +14,7 @@ $("p").on("click",function(){
 function frameIt() {
 
 $('document').on('load',function(){
-  $('img').append('.tasty');
+  $('img').addClass('.tasty');
 });
 
 }
