@@ -16,6 +16,7 @@ function frameIt() {
 $('document').on('load',function(){
   $('img').append('.tasty');
 });
+
 }
 
 });
