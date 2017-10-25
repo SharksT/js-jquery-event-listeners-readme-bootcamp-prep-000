@@ -29,4 +29,7 @@ $('imput').on('keydown',function(e) {
   }
 });
 
+function submitIt() {
+  
+}
 }
