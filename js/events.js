@@ -13,7 +13,9 @@ $("p").on("click",function(){
 
 function frameIt() {
 
-$('document').load('img.tasty');
+$('document').on('load',function(){
+  $('img').append('.tasty');
+});
 }
 
 });
