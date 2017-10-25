@@ -23,8 +23,6 @@ $('document').on('load',function(){
 function pressIt() {
 
 $('input').on('keydown',function(e) {
-  alert("You pressed the G key!");
-  console.log("Teste");
   if((e.which || e.detail ) == 71)
   {
     alert("You pressed the G key!");
